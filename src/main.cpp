@@ -87,7 +87,7 @@ int main(int argc, char *argv[]) {
     } else {
         bytes_requested = std::stoul(argv[1]);
     }
-    
+
     std::ostringstream oss;
 
     for(auto random_number : generateRandomNumber(bytes_requested)){
